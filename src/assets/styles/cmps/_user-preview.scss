@@ -1,0 +1,46 @@
+.user-preview {
+  padding: 10px;
+  border: 1px solid rgb(2, 0, 0);
+  font-size: 1rem;
+  background-color: azure;
+  box-shadow: 1px 0px 4px 0px black;
+  border-radius: 5px;
+  width: 270px;
+  > p {
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .user-img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+
+    button {
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    .btn-delete {
+      background-color: #e65a5a;
+    }
+    .btn-edit {
+      border: 1px solid rgb(36, 35, 35);
+      width: 71px;
+      height: 37px;
+      border-radius: 5px;
+      background-color: #4949f4;
+      color: whitesmoke;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

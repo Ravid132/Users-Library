@@ -1,0 +1,11 @@
+.app-header {
+  background-color: #a8c0c0;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: background-color 1s ease 0s;
+  padding: 1rem;
+  .app-title {
+    text-align: center;
+  }
+}

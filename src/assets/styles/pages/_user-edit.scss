@@ -1,0 +1,39 @@
+.user-edit {
+  background-color: #a8c0c0;
+  .edit-user-img {
+    margin-inline-start: 100px;
+  }
+  .input-container {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    label {
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+    }
+  }
+
+  .action-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    margin-inline-start: 180px;
+    button {
+      width: 200px;
+      height: 70px;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .save-btn {
+      background-color: lime;
+    }
+    .back-btn {
+      background-color: #ff5050;
+    }
+  }
+}
